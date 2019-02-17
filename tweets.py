@@ -26,7 +26,7 @@ for ln in lang:
     result = []
     max_count = int(lang[ln])
     current_count = 0
-    ts = TwitterSearch(consumer_key='JLSMrQaJJbmF64BcbP8T2CC1D', consumer_secret='SnLEf3FXU9cGjrI1xLUhq5U6fLYjUUMIAzANCPcoHSBzdURTOL', access_token='1038144259386470400-gilid9uCt3C1Z4yBU1StqO0FxqGlY8', access_token_secret='6GCBzBSjf1nozp18QZStwDyBjdUHZMTHw5PRxMN3J5LgC')
+    ts = TwitterSearch(consumer_key='key', consumer_secret='key', access_token='key', access_token_secret='key')
     tso = TwitterSearchOrder()
     tso.set_keywords(keywords, or_operator = True)
     tso.set_language(ln)
